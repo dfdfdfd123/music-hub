@@ -1,0 +1,75 @@
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-content {
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	position: relative;
+	width: 300px;
+}
+
+.close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: none;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.find-pw-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.find-pw-form h2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.find-pw-form form {
+	display: flex;
+	flex-direction: column;
+}
+
+.find-pw-form label {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.find-id-form label span {
+	flex: 1;
+	margin-right: 10px;
+}
+
+.find-pw-form input {
+	flex: 2;
+	padding: 5px;
+}
+
+.find-pw-form .input-group {
+	display: flex;
+	align-items: center;
+}
+
+.find-pw-form button[type="submit"] {
+	margin-left: 10px;
+	padding: 5px 10px;
+	background: #007bff;
+	border: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}

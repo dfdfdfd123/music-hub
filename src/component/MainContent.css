@@ -1,0 +1,22 @@
+/* MainContent.css */
+.main-content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .recommendations,
+  .popular-music,
+  .popular-artists,
+  .news,
+  .top-list {
+    margin-bottom: 20px;
+  }
+  
+  .news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+  }
+  
